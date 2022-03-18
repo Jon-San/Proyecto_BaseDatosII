@@ -1,0 +1,111 @@
+CU_001 Registrar trabajador
+
+InterfazRegistrarTrabajador
+-Cancelar
+-Registrar
+
+
+ControlTrabajador
+-RegistrarTrabajador
+agregar -- Quitartrabajador
+
+
+
+
+CU_002 Desactivar Inventario
+
+Interfaz Activar/DesactivarInventario
+-ListarInventarioActivo
+-DesactivarInventario
+-Regresar
+
+Control Inventario
+-ListarInventariActivo
+-DesactivarInventario
+
+
+CU_003 Realizar Ajuste
+
+control inventario
+-ListarInventario
+-RealizaAjuste
+
+
+CU_003 Realizar Ajuste
+
+Interfaz Menú
+-ListarInventario
+-RealizaAjuste
+
+ ControlInventario
+-ListaInventario
+-RealizaAjuste
+
+
+CU_004 Activa Inventario
+
+Interfaz Activar/Desactivar Inventario
+-ListarTodoInventario
+-ActivaInventario
+-Regresar
+
+ControlInventario
+-ListarTodoInventario
+-ActivarInventario
+
+CU_005 Solicitar Producto
+-RealizarPedido
+
+CU-006 , CU-009 - Detallar cantidad de producto - Realizar inventario
+
+InterfazInventarioActivo
+-BuscarInventario
+-Limpiar
+-RegistrarMovimiento
+-Regresar
+
+ControlInventario
+-BuscarInventario
+-RegistarMovimiento
+
+CU-007, CU-008, --Movilizar Producto - Retirar Producto 
+
+InterfazSeleccionarInventario
+-ListarInventarioActivo
+-Salir
+
+InterfazInventarioRealizado
+-ListarInventarioRealizado
+
+ControlInventario
+-ListarInventarioActivo
+
+ControlDetalleInventario
+-ListarInventarioRealizado
+
+
+CU-010 - Acceder al sistema
+
+InterfazSeleccioanrLocal
+-MostrarLocal
+-Salir
+
+InterfazIngresarSistema
+-ListarEmpleado
+-Sugerencia
+
+ControlLocal
+-MostrarLocal
+-ValidaLocal
+
+ControlVerificarUsuario
+-ListarEmpleado
+-VerificarEmpleado
+
+
+
+
+
+
+
+
